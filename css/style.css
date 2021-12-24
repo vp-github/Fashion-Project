@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+.main-header {
+  height: 180px;
+  width: 100%;
+  background: #f1f1f1;
+}
+.header-divisions {
+  height: 100%;
+  margin: 0 195px;
+  display: flex;
+  flex-direction: column;
+}
+.upper-header {
+  height: 80px;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lower-header {
+  height: 100px;
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.upper-left select {
+  background: transparent;
+  border: #f1f1f1;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.upper-right {
+  display: flex;
+}
+.upper-right a {
+  margin: auto 5px;
+  text-decoration: none;
+  color: #222222;
+}
+
+.lower-middle a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-right: 45px;
+}
+.lower-right a {
+  margin-right: 15px;
+}
+.main-banner,
+.main-banner img {
+  height: 800px;
+  width: 100vw;
+  position: relative;
+  margin-bottom: 10px;
+}
+.wordings {
+  position: absolute;
+  font-family: "Poppins", "sans-serif";
+  content: "";
+  top: 38%;
+  margin-left: 190px;
+}
+.title {
+  font-size: 60px;
+  font-weight: 300;
+}
+.title strong {
+  font-size: 72px;
+  font-weight: 500;
+}
+.description {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+.explore-now {
+  font-size: 14px;
+  padding: 15px;
+  margin-top: 45px;
+  background: transparent;
+  border: 0.5px solid black;
+}
+.two-blocks {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 10px;
+  height: 465px;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 95px;
+}
+.autumn {
+  width: 100%;
+  position: relative;
+}
+.autumn img {
+  width: 100%;
+}
+.autumn-words {
+  width: 440px;
+  height: 220px;
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 15%;
+}
+.autumn-words h2 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.autumn-words p {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin-bottom: 30px;
+}
+.shop-now {
+  font-size: 14px;
+  font-weight: 200;
+  width: 140px;
+  height: 40px;
+  padding: 10px 20px;
+  background: transparent;
+}
+.video {
+  width: 100%;
+  position: relative;
+}
+.video img {
+  width: 100%;
+}
+.play-icon {
+  color: white;
+  font-size: 60px;
+  padding: 25px;
+  position: absolute;
+  right: 40%;
+  bottom: 40%;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.products-section h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #222222;
+}
+.products-section .nav-div a {
+  text-decoration: none;
+  color: #222222;
+  padding: 5px 15px;
+  font-weight: 200;
+  margin-right: 25px;
+}
+.nav-div {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+/* 280 440 */
+.products {
+  display: flex;
+  justify-content: center;
+}
+.nav-div a:first-child {
+  border: 1px solid black;
+}
+.products a img {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.products .cost {
+  margin-top: 20px;
+}
+.products s {
+  margin-left: 20px;
+  color: #adadad;
+}
+.view-all {
+  color: #222222;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 80px;
+}
+.second-banner {
+  width: 100vw;
+  height: 450px;
+  margin-bottom: 180px;
+}
+.banner-2 {
+  width: 100%;
+}
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-box {
+  display: grid;
+  grid-column: 4;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin-bottom: 90px;
+}
+.categories {
+  background: #f8f8f8;
+  grid-column: 2 span;
+}
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  margin-bottom: 50px;
+  color: #222222;
+}
+.blog-container h3 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+.blog-container p {
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 0.8px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+.card-details {
+  height: 225;
+  width: 450px;
+  letter-spacing: 1px;
+  color: #222222;
+  padding: 30px;
+  box-shadow: 10px 10px 10px #f1f1f1;
+}
+.card {
+  height: 600px;
+  width: 450px;
+  margin-right: 85px;
+}
+.card img {
+  height: 380;
+  width: 450px;
+}
+.card-details h3 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.card-details h6 {
+  font-weight: 200;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.card-details p {
+  font-size: 14px;
+  font-weight: 200;
+}
+.brands-div {
+  background: #f4f4f4;
+  height: 195px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.brand {
+  width: 100px;
+  height: 115px;
+}
+footer {
+  background: #222222;
+  height: 415px;
+  width: 100vw;
+  color: white;
+  display: flex;
+}
+footer .photo-div img {
+  width: 95px;
+  height: 95px;
+}
+.insta-div {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 190px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer h3 {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.photo-div {
+  margin-bottom: 40px;
+  display: flex;
+}
+.photo-div img {
+  margin-right: 5px;
+}
+footer .insta-div p {
+  color: #5e5e5e;
+}
+footer .insta-div strong {
+  color: #adadad;
+}
+.social-head {
+  margin-bottom: 35px;
+  color: #adadad;
+  font-size: 15px;
+}
+.social a {
+  margin-bottom: 10px;
+  color: #777777;
+  display: block;
+  text-decoration: none;
+}
+.social {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 380px;
+}
+.service-head {
+  margin-bottom: 35px;
+  color: #adadad;
+  font-size: 15px;
+  width: 110px;
+}
+.our-service a {
+  display: flex;
+  margin-bottom: 10px;
+  color: #777777;
+  text-decoration: none;
+}
+.our-service {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 210px;
+}
+.contact-head {
+  margin-bottom: 35px;
+  color: #adadad;
+  font-size: 15px;
+  width: 110px;
+}
+.contact a {
+  display: block;
+  margin-bottom: 10px;
+  color: #777777;
+  text-decoration: none;
+}
+.contact a img {
+  margin-right: 10px;
+}
+.contact {
+  margin: auto 0;
+  width: 1000px;
+}
