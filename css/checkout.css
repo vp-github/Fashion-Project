@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+.main-header {
+  height: 180px;
+  width: 100%;
+  background: #ffffff;
+}
+.header-divisions {
+  height: 100%;
+  margin: 0 195px;
+  display: flex;
+  flex-direction: column;
+}
+.upper-header {
+  height: 80px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lower-header {
+  height: 100px;
+  background: #222222;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.upper-left select {
+  background: transparent;
+  border: #f1f1f1;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.upper-right {
+  display: flex;
+}
+.upper-right a {
+  margin: auto 5px;
+  text-decoration: none;
+  color: #222222;
+}
+
+.lower-middle a {
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-right: 45px;
+}
+.lower-right a {
+  margin-right: 15px;
+}
+.grey-part {
+  width: 100vw;
+  background: #e7e7e7;
+  text-align: center;
+}
+.grey-part h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.grey-part p {
+  font-weight: 300;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.check-out {
+  width: fit-content;
+  margin: auto;
+  padding: 68px;
+  margin-bottom: 80px;
+}
+.two-divisions {
+  display: flex;
+  justify-content: space-around;
+}
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 190px;
+}
+.right-form {
+  display: flex;
+  flex-direction: column;
+  margin-right: 190px;
+  margin-top: 90px;
+}
+.address {
+  display: flex;
+  margin-bottom: 25px;
+}
+.notes {
+  width: 750px;
+  height: 65px;
+  margin-bottom: 55px;
+  border: 1px solid #e1e1e1;
+}
+.notes::placeholder {
+  color: #999999;
+  padding: 10px;
+}
+.your-order {
+  font-weight: 600px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e1e1e1;
+  margin-bottom: 20px;
+  width: 750px;
+}
+.order-details {
+  display: flex;
+  border-bottom: 1px solid #e1e1e1;
+  width: 750px;
+}
+.product-name {
+  margin-right: 115px;
+  letter-spacing: 1px;
+}
+.product-name h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #666666;
+}
+.product-name p {
+  color: #888888;
+}
+.order-details img {
+  width: 60px;
+  height: 80px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.part2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 750px;
+}
+
+.address input {
+  margin-right: 10px;
+  margin-top: 6px;
+  font-size: 15px;
+}
+.final-part h6 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 10px auto;
+}
+.final-part .shipping {
+  color: #999999;
+}
+.final-part strong {
+  margin-right: 10px;
+  color: #333333;
+  font-weight: 500;
+}
+.first-line {
+  display: flex;
+  margin-bottom: 50px;
+}
+.into1 {
+  margin-right: 300px;
+}
+.cust {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 25px;
+}
+.bill-details {
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+.left-form,
+.right-form {
+  display: flex;
+  flex-direction: column;
+}
+.name,
+.cont {
+  display: flex;
+}
+.first-name,
+.last-name,
+.email-address,
+.phone {
+  width: 365px;
+  margin-right: 25px;
+  height: 40px;
+  margin-bottom: 25px;
+}
+.cont {
+  margin-bottom: 40px;
+}
+.payment h6 {
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.payment label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.payment p {
+  margin-top: 10px;
+  margin-left: 25px;
+  width: 753px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  color: #999999;
+}
+.paypal {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e1e1;
+  color: #999999;
+}
+.ip {
+  border: 1px solid #e1e1e1;
+}
+.checkbox-div {
+  margin-bottom: 55px;
+}
+.checkbox-div input {
+  margin-right: 10px;
+}
+.payment {
+  margin-bottom: 30px;
+}
+.black-div {
+  margin-bottom: 100px;
+}
+.proceed {
+  width: 170px;
+  height: 40px;
+  background: #222222;
+  color: white;
+}
+.ip::placeholder {
+  padding: 10px 10px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #999999;
+}
+
+.country {
+  padding: 10px 10px;
+  color: #999999;
+}
+.login-button {
+  background: transparent;
+  width: 95px;
+  height: 48px;
+  margin-right: 105px;
+  border: 1px solid #e1e1e1;
+}
+.coupon {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 55px;
+}
+.company,
+.country {
+  height: 40px;
+  width: 753px;
+  margin-bottom: 25px;
+}
+.input-coupon {
+  padding: 15px;
+  border: 1px solid #e1e1e1;
+}
+.input-coupon::placeholder {
+  color: #999999;
+}
+.terms {
+  display: flex;
+  font-weight: 500;
+}
+.terms input {
+  margin-top: 6px;
+  margin-right: 10px;
+}
+.terms p {
+  margin-bottom: 25px;
+}
+footer {
+  background: #222222;
+  height: 415px;
+  width: 100vw;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  display: flex;
+}
+footer .photo-div img {
+  width: 95px;
+  height: 95px;
+}
+.insta-div {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 190px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+footer h3 {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.photo-div {
+  margin-bottom: 40px;
+  display: flex;
+}
+.photo-div img {
+  margin-right: 5px;
+}
+footer .insta-div p {
+  color: #5e5e5e;
+}
+footer .insta-div strong {
+  color: #adadad;
+}
+.social-head {
+  margin-bottom: 35px;
+  color: #adadad;
+  font-size: 15px;
+}
+.social a {
+  margin-bottom: 10px;
+  color: #777777;
+  display: block;
+  text-decoration: none;
+}
+.social {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 380px;
+}
+.service-head {
+  margin-bottom: 35px;
+  color: #adadad;
+  font-size: 15px;
+  width: 110px;
+}
+.our-service a {
+  display: flex;
+  margin-bottom: 10px;
+  color: #777777;
+  text-decoration: none;
+}
+.our-service {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 210px;
+}
+.contact-head {
+  margin-bottom: 35px;
+  color: #adadad;
+  font-size: 15px;
+  width: 110px;
+}
+.contact a {
+  display: flex;
+  margin-bottom: 10px;
+  color: #777777;
+  text-decoration: none;
+}
+
+.contact a img {
+  margin-right: 20px;
+  height: fit-content;
+}
+.contact {
+  margin: auto 80px;
+  width: 300px;
+}

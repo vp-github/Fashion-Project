@@ -204,9 +204,50 @@
   width: 100vw;
   height: 450px;
   margin-bottom: 180px;
+  position: relative;
 }
 .banner-2 {
   width: 100%;
+  height: 100%;
+}
+.second-banner h1 {
+  position: absolute;
+  top: -1%;
+  left: 23%;
+  font-size: 300px;
+  color: #222222;
+  opacity: 0.2;
+  font-weight: 300;
+}
+.second-banner h2 {
+  position: absolute;
+  top: 33%;
+  left: 21%;
+  font-size: 60px;
+  color: #222222;
+  font-weight: 300;
+}
+.second-banner h2 strong {
+  font-weight: 600;
+  font-size: 70px;
+}
+
+.second-banner p {
+  position: absolute;
+  font-size: 16px;
+  color: #ea5e03;
+  bottom: 185px;
+  right: 47%;
+}
+.second-banner button {
+  position: absolute;
+  color: #ffffff;
+  background: #111111;
+  width: 140px;
+  height: 40px;
+  font-size: 14px;
+  bottom: 110px;
+  right: 47%;
 }
 .grid-container {
   display: flex;
@@ -221,9 +262,116 @@
   column-gap: 30px;
   margin-bottom: 90px;
 }
+.bags {
+  position: relative;
+}
+
+.bag-button {
+  position: absolute;
+  background: #ffffff;
+  color: #111111;
+  width: 82px;
+  height: 40px;
+  bottom: 10%;
+  right: 40%;
+  border: none;
+}
+
 .categories {
   background: #f8f8f8;
   grid-column: 2 span;
+  position: relative;
+}
+.cat-words {
+  position: absolute;
+  top: 23%;
+  left: 13%;
+
+  text-align: center;
+}
+.cat-words h1 {
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+.cat-words p {
+  color: #888888;
+  width: 575px;
+  font-size: 15px;
+  margin-bottom: 55px;
+}
+.cat-words button {
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  background: transparent;
+}
+.shoes {
+  position: relative;
+}
+.shoe-button {
+  position: absolute;
+  background: #ffffff;
+  color: #111111;
+  width: 150px;
+  height: 40px;
+  bottom: 10%;
+  right: 30%;
+  border: none;
+}
+.mens {
+  position: relative;
+}
+.mens-button {
+  position: absolute;
+  background: #ffffff;
+  color: #111111;
+  width: 130px;
+  height: 40px;
+  bottom: 10%;
+  right: 30%;
+  border: none;
+}
+.skirts {
+  position: relative;
+}
+.skirts-button {
+  position: absolute;
+  background: #ffffff;
+  color: #111111;
+  width: 82px;
+  height: 40px;
+  bottom: 10%;
+  right: 40%;
+  border: none;
+}
+.lookbook {
+  position: relative;
+}
+.lookbook-button {
+  position: absolute;
+  background: #ffffff;
+  color: #111111;
+  width: 150px;
+  height: 40px;
+  bottom: 10%;
+  right: 25%;
+  border: none;
+}
+.accessories {
+  position: relative;
+}
+.accessories-button {
+  position: absolute;
+  background: #ffffff;
+  color: #111111;
+  width: 150px;
+  height: 40px;
+  bottom: 10%;
+  right: 25%;
+  border: none;
 }
 .blog-container {
   display: flex;
@@ -256,7 +404,7 @@
   letter-spacing: 1px;
   color: #222222;
   padding: 30px;
-  box-shadow: 10px 10px 10px #f1f1f1;
+  box-shadow: 3px 1px 15px 5px #f0f0f0;
 }
 .card {
   height: 600px;
@@ -299,6 +447,7 @@ footer {
   width: 100vw;
   color: white;
   display: flex;
+  justify-content: space-evenly;
 }
 footer .photo-div img {
   width: 95px;
@@ -310,7 +459,7 @@ footer .photo-div img {
   margin-left: 190px;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: fit-content;
 }
 footer {
   display: flex;
@@ -375,15 +524,113 @@ footer .insta-div strong {
   width: 110px;
 }
 .contact a {
-  display: block;
+  display: flex;
   margin-bottom: 10px;
   color: #777777;
   text-decoration: none;
 }
+
 .contact a img {
-  margin-right: 10px;
+  margin-right: 20px;
+  height: fit-content;
 }
 .contact {
-  margin: auto 0;
-  width: 1000px;
+  margin: auto 80px;
+  width: 300px;
+}
+.img-div1 {
+  position: relative;
+}
+.img-div2 {
+  position: relative;
+}
+.img-div3 {
+  position: relative;
+}
+.img-div4 {
+  position: relative;
+}
+.img-div5 {
+  position: relative;
+}
+.img-div1:hover .fav,
+.img-div1:hover .addcart {
+  visibility: visible;
+}
+.img-div2:hover .fav,
+.img-div2:hover .addcart {
+  visibility: visible;
+}
+.img-div3:hover .fav,
+.img-div3:hover .addcart {
+  visibility: visible;
+}
+.img-div4:hover .fav,
+.img-div4:hover .addcart {
+  visibility: visible;
+}
+.img-div5:hover .fav,
+.img-div5:hover .addcart {
+  visibility: visible;
+}
+.sale {
+  position: absolute;
+  top: 15px;
+  right: 45px;
+  background: white;
+  width: 70px;
+  height: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: 2px 2px 2px #adadad;
+}
+.fav {
+  position: absolute;
+  bottom: 25%;
+  right: 15%;
+  padding: 13px;
+  border: 1px solid transparent;
+  background: white;
+  box-shadow: 2px 2px 2px #adadad;
+  visibility: hidden;
+}
+.addcart {
+  position: absolute;
+  bottom: 40%;
+  right: 15%;
+  padding: 10px;
+  border: 1px solid transparent;
+  background: white;
+  box-shadow: 2px 2px 2px #adadad;
+  visibility: hidden;
+}
+.new {
+  position: absolute;
+  top: 15px;
+  left: 25px;
+  background: #222222;
+  color: #ffffff;
+  width: 65px;
+  height: 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  box-shadow: 2px 2px 2px #adadad;
+}
+.time {
+  position: absolute;
+  top: 36%;
+  left: 20%;
+  background: #222222;
+  color: #f1f1f1;
+  padding: 10px;
+  width: 180px;
+  height: 50px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.card-details:hover {
+  box-shadow: 5px 12px 15px 5px #e7e7e7;
 }

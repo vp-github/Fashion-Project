@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/checkout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>checkout</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="main-header">
+        <div class="header-divisions">
+          <div class="upper-header">
+            <div class="upper-left">
+              <label> Currency:</label>
+              <span
+                ><select name="currency">
+                  <option>USD</option>
+                </select></span
+              >
+              <label> Language:</label>
+              <span
+                ><select name="language">
+                  <option>ENG</option>
+                  >
+                </select></span
+              >
+            </div>
+            <div class="upper-right">
+              <img src="./images/account.png" />
+              <a href="#">Login</a> | <a href="#">Register</a>
+            </div>
+          </div>
+          <div class="lower-header">
+            <div class="lower-left">
+              <img class="logo" src="./images/logo.png" />
+            </div>
+            <nav class="lower-middle">
+              <a href="index.html">HOME</a>
+              <a href="index.html">SHOP</a>
+              <a href="index.html">WOMENS</a>
+              <a href="index.html">MENS</a>
+              <a href="index.html">LOOKBOOK</a>
+              <a href="index.html">BLOG</a>
+              <a href="index.html">ABOUT US</a>
+            </nav>
+            <div class="lower-right">
+              <a href="#"><img class="search" src="./images/search.png" /></a>
+              <a href="#"><img class="cart" src="./images/cart-light.png" /></a>
+              <a href="#"><img class="menu" src="./images/menu.png" /></a>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="grey-part">
+        <div class="check-out">
+          <h2>CHECKOUT</h2>
+          <p>Lorem Ipsium is not simply random text.</p>
+        </div>
+      </div>
+      <div class="two-divisions">
+        <div class="sub-container">
+          <div class="first-line">
+            <p class="cust">Returning Customer?</p>
+            <button type="button" class="login-button">LOGIN</button>
+            <p class="coupon">Have a Coupon?</p>
+            <input type="text" class="input-coupon" placeholder="Coupon Code" />
+          </div>
+
+          <div class="left-form">
+            <label class="bill-details">BILLING DETAILS</label>
+            <div class="name">
+              <input
+                type="text"
+                class="first-name ip"
+                placeholder="First name"
+                required
+              />
+              <input
+                type="text"
+                class="last-name ip"
+                placeholder="Last name"
+                required
+              />
+            </div>
+            <input type="text" placeholder="Company name" class="company ip" />
+            <select class="country ip">
+              <option>Country</option>
+            </select>
+            <input
+              type="text"
+              placeholder="Street Address (House address & street name)"
+              class="country ip"
+            />
+            <input
+              type="text"
+              placeholder="Postcode / ZIP name"
+              class="country ip"
+            />
+            <input
+              type="text"
+              placeholder="Town/City / ZIP name"
+              class="country ip"
+            />
+            <div class="cont">
+              <input
+                type="text"
+                class="phone ip"
+                placeholder="Phone"
+                required
+              />
+              <input
+                type="text"
+                class="email-address ip"
+                placeholder="Email address"
+                required
+              />
+            </div>
+            <div class="checkbox-div">
+              <input type="checkbox" />
+              <label>Create an account?</label>
+            </div>
+            <div class="payment">
+              <h6>PAYMENT METHOD</h6>
+              <div class="pay-check">
+                <input type="checkbox" />
+                <label>Direct Bank Transfer</label>
+                <p>
+                  Make your payment directly into our bank account. Please use
+                  OrderID as payment reference. Your order won't be shipped
+                  until the funds have cleared in our account.
+                </p>
+                <input type="checkbox" />
+                <label>Paypal</label>
+                <p class="paypal">What's Paypal?</p>
+              </div>
+            </div>
+            <div class="terms">
+              <input type="checkbox" />
+              <p>I have read & accept the terms and conditions.</p>
+            </div>
+            <div class="black-div">
+              <button type="submit" class="proceed">PROCEED TO PAY</button>
+            </div>
+          </div>
+        </div>
+        <div class="right-form">
+          <div class="address">
+            <input type="checkbox" />
+            <p>SHIP TO DIFFERENT ADDRESS?</p>
+          </div>
+          <textarea
+            type="text"
+            placeholder="Order notes"
+            class="notes"
+          ></textarea>
+
+          <p class="your-order">YOUR ORDER</p>
+          <div class="order-details">
+            <img src="./pictures/product-01.jpg" />
+            <div class="product-name">
+              <h6>One shoulder bow top</h6>
+              <p>Size: L</p>
+            </div>
+            <p class="into1">x 1</p>
+            <p>$250</p>
+          </div>
+          <div class="order-details part2">
+            <img src="./pictures/product-01.jpg" />
+            <div class="product-name">
+              <h6>One shoulder bow top</h6>
+              <p>Size: L</p>
+            </div>
+            <p class="into1">x 1</p>
+            <p class="price">$250</p>
+          </div>
+          <div class="final-part">
+            <h6><strong>Subtotal:</strong> $500</h6>
+            <p class="shipping">
+              <strong>Shipping:</strong>Shipping costs will be calculated once
+              you have provided your address.
+            </p>
+            <p class="shipping">Contact us if you need any help</p>
+            <h6><strong>TOTAL:</strong> $500</h6>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="insta-div">
+          <h3>@INSTAGRAM</h3>
+          <div class="photo-div">
+            <img src="./images/instagram-01.jpg" />
+            <img src="./images/instagram-02.jpg" />
+            <img src="./images/instagram-03.jpg" />
+            <img src="./images/instagram-04.jpg" />
+          </div>
+          <p>
+            &copy; 2018 <strong>Fashion</strong> | Design by Codem | All rights
+            reserved
+          </p>
+        </div>
+
+        <div class="contact">
+          <h6 class="contact-head">CONTACT</h6>
+          <a href="#"
+            ><img src="./images/ficon-location.png" />
+            <div>
+              450 CD, Contrary Latin literature, Popular Belief Lorem Ipsum
+            </div></a
+          >
+          <a href="#"
+            ><img src="./images/ficon-call.png" />
+            <div>01-888-8888</div></a
+          >
+          <a href="mailto:antonfashion@domail.com"
+            ><img src="./images/ficon-mail.png" />
+            <div>antonfashion@domail.com</div></a
+          >
+          <a href="#"
+            ><img src="./images/ficon-time.png" />
+            <div>8am-9pm, Mon-Sat</div></a
+          >
+        </div>
+
+        <div class="our-service">
+          <h6 class="service-head">OUR SERVICES</h6>
+          <a href="#">HELP/FAQ'S</a>
+          <a href="#">CONTACT US</a>
+          <a href="#">MY ACCOUNT</a>
+          <a href="#">POLICY</a>
+          <a href="#">NEWSLETTER</a>
+        </div>
+
+        <div class="social">
+          <h6 class="social-head">SOCIAL</h6>
+          <a href="#">FACEBOOK</a>
+          <a href="#">TWITTER</a>
+          <a href="#">GOOGLE++</a>
+          <a href="#">YOUTUBE</a>
+          <a href="#">INSTAGRAM</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
