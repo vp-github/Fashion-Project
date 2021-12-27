@@ -15,7 +15,8 @@
 }
 .header-divisions {
   height: 100%;
-  margin: 0 195px;
+  width: 1170px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
 }
@@ -98,9 +99,9 @@
   display: grid;
   grid-template-columns: 50% 50%;
   column-gap: 10px;
-  height: 465px;
   font-family: "Poppins", sans-serif;
-  margin-bottom: 95px;
+  margin-bottom: 70px;
+  width: 100vw;
 }
 .autumn {
   width: 100%;
@@ -110,7 +111,6 @@
   width: 100%;
 }
 .autumn-words {
-  width: 440px;
   height: 220px;
   position: absolute;
   content: "";
@@ -177,7 +177,8 @@
 /* 280 440 */
 .products {
   display: flex;
-  justify-content: center;
+  width: 1150px;
+  margin: auto;
 }
 .nav-div a:first-child {
   border: 1px solid black;
@@ -185,6 +186,8 @@
 .products a img {
   margin-right: 30px;
   margin-bottom: 20px;
+  width: 204px;
+  height: 285px;
 }
 .products .cost {
   margin-top: 20px;
@@ -203,7 +206,7 @@
 .second-banner {
   width: 100vw;
   height: 450px;
-  margin-bottom: 180px;
+  margin-bottom: 60px;
   position: relative;
 }
 .banner-2 {
@@ -250,17 +253,20 @@
   right: 47%;
 }
 .grid-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 1150px;
+  margin: 0 auto;
 }
 .grid-box {
   display: grid;
   grid-column: 4;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 30px;
-  column-gap: 30px;
-  margin-bottom: 90px;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-bottom: 65px;
+}
+.grid-box img {
+  width: 270px;
+  height: 270px;
 }
 .bags {
   position: relative;
@@ -284,9 +290,8 @@
 }
 .cat-words {
   position: absolute;
-  top: 23%;
-  left: 13%;
-
+  top: 10%;
+  left: 1%;
   text-align: center;
 }
 .cat-words h1 {
@@ -395,25 +400,25 @@
 }
 .card-container {
   display: flex;
-  justify-content: center;
+  width: 1150px;
+  margin: auto;
   margin-bottom: 80px;
 }
 .card-details {
-  height: 225;
-  width: 450px;
+  height: 225px;
+  width: 100%;
   letter-spacing: 1px;
   color: #222222;
   padding: 30px;
   box-shadow: 3px 1px 15px 5px #f0f0f0;
 }
 .card {
-  height: 600px;
-  width: 450px;
-  margin-right: 85px;
+  width: 100%;
+  margin-right: 60px;
 }
+
 .card img {
-  height: 380;
-  width: 450px;
+  width: 330px;
 }
 .card-details h3 {
   font-size: 16px;
@@ -529,7 +534,6 @@ footer .insta-div strong {
   color: #777777;
   text-decoration: none;
 }
-
 .contact a img {
   margin-right: 20px;
   height: fit-content;
